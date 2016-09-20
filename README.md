@@ -1,9 +1,25 @@
-<<<<<<< HEAD
-blog
-====
 
-A Symfony project created on September 18, 2016, 9:37 am.
+Symfony Blog
+============
+
+Symfony 3.1
+
+"Build a Blog within the Symfony framework and Bootstrap front-end
+which supports basic functionalities like create-, view- and edit
+posts"
+
+
+Install
 =======
-# symfony_blog
-simple blog
->>>>>>> d925b9bbb1d713338ee08c8f813f1bb76a7dc38b
+
+Run composer install
+
+This blog includes a sqlite database, or use mysql and run doctrine:database:create
+
+navigate to /web/app_dev.php/blog/posts/
+
+
+
+
+
+
