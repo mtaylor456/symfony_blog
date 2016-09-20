@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /app/config/parameters.yml
 /build/
 /phpunit.xml
@@ -64,4 +64,5 @@
 
 # Backup entities generated with doctrine:generate:entities command
 */Entity/*~
->>>>>>> d925b9bbb1d713338ee08c8f813f1bb76a7dc38b
+
+.idea
