@@ -12,9 +12,11 @@ posts"
 Install
 =======
 
-Run composer install
+composer install
 
-This blog includes a sqlite database, or use mysql and run doctrine:database:create
+bower install
+
+a sqlite database is already set up, or use mysql and run doctrine:database:create
 
 navigate to /web/app_dev.php/blog/posts/
 
