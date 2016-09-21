@@ -10,6 +10,9 @@
     <div class="panel-body">
         {{ post.content }}
     </div>
+    <div class="panel-footer">
+        By {{ post.author }} on {{ post.publishedDate|date('Y-m-d H:i:s') }}
+    </div>
 </div>
     <a href="{{ path('post_edit',{ id:post.id}) }}" class="btn btn-info">Edit</a>
     <a href="{{ path('post_delete',{ id:post.id}) }}" class="btn btn-info pull-right">Delete</a>
